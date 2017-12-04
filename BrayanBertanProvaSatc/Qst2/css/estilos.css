@@ -1,0 +1,306 @@
+/*
+Começo do css alterando a cor da fonte na div que vai aparecer caso não tenha nenhum dado
+*/
+#camposemDados{
+    color:white;
+}
+/*
+Fim do css alterando a cor da fonte na div que vai aparecer caso não tenha nenhum dado
+*/
+/*
+Começo do css alterando a navbar
+*/
+/*
+Começo do css alterando a navbar
+*/
+.navbar-custom{
+    background-color:#33334C;
+}
+
+.navbar-default .navbar-nav>li>a{
+    color:white;
+}
+
+
+.navbar-default .navbar-nav>li>a:hover{
+    color:coral;
+}
+
+.navbar-default .navbar-brand{
+    color:white;
+}
+
+.navbar-default .navbar-brand:hover{
+    color:coral;
+}
+.navbar-default .navbar-toggle{
+    color:white;
+    background-color:#33334C;
+}
+
+.navbar-default .navbar-toggle:focus, .navbar-default .navbar-toggle:hover{
+    color:white;
+    background-color:#33334C;
+}
+
+/*
+Fim do css alterando a navbar
+*/
+
+/*
+Começo do css distanciando o conteudo principal do site do topo
+*/
+#principal{
+    margin-top:4.2%;
+}
+/*
+Fim do css distanciando o conteudo principal do site do topo
+*/
+
+/*
+Começo do css alterando o footer
+*/
+footer {
+    position: fixed;
+    height:9%;
+    bottom: 0;
+    width: 100%;
+    background-color:#28312E;
+}
+
+
+
+footer h3{
+    margin-left:42%;
+    color:white;
+}
+/*
+Fim do css alterando o footer
+*/
+
+/*
+Começo do css alterando o estilo do cadastro principal
+*/
+#cadastro{
+    width:32%;
+    height:322px;
+    margin-left:32%;
+    background-color:#F2BE68;
+    box-shadow:  0px 4px 4px #0E0E0E;
+    border-radius:5px;
+}
+/*
+Fim do css alterando o estilo do cadastro principal
+*/
+
+/*
+Começo do css que esconde o cadastro que só deve aparecer em telas com no maximo 600px de largura
+*/
+#cadastroTelaPequena{
+    display:none;
+}
+/*
+Fim do css que esconde o cadastro que só deve aparecer em telas com no maximo 600px de largura
+*/
+
+/*
+Começo do css que altera o campo de edição/exclusão/desativação de usuarios ativos
+*/
+#editar{
+    margin-top:3%;
+    background-color:#33334C;
+    width:92%;
+    margin-left:4%;
+    box-shadow:  0px 4px 4px #0E0E0E;
+    margin-bottom:3%;
+    border-radius:5px;
+}
+/*
+Fim do css que altera o campo de edição/exclusão/desativação de usuarios ativos
+*/
+
+/*
+Começo do css que altera o campo de ativação de usuarios inativos
+*/
+#desativos{
+    margin-top:3%;
+    background-color:#33334C;
+    width:92%;
+    margin-left:4%;
+    box-shadow:0px 4px 4px #0E0E0E;
+    margin-bottom:8%;
+    border-radius:5px;
+}
+/*
+Fim do css que altera o campo de ativação de usuarios inativos
+*/
+
+
+.row{
+    margin-left:3%;
+    margin-right:3%;
+}
+
+#tituloCadastro{
+    margin-left:32%;
+    top:32%;
+}
+
+
+#cadastrarBotao{
+    margin-left:34%;
+}
+
+table tr{
+    color:white;
+}
+
+
+#formulario input.error
+{
+    border:1px solid red;
+}
+#formulario label.error
+{
+    color:red;
+}
+
+.form-control{
+    font-family:verdana;
+    font-size:16px;
+}
+
+#botaoEditar{
+    color:black;
+    border-radius:50%;
+    width:42px;
+    height:42px;
+    margin-left:12%;
+}
+
+#botaoAtivar{
+    color:black;
+    border-radius:50%;
+    width:42px;
+    height:42px;
+    margin-left:12%;
+}
+
+#botaoDeletar{
+    color:red;
+    border-radius:50%;
+    width:42px;
+    height:42px;
+    margin-left:12%;
+}
+
+.modal-dialog{
+    width:226px;
+    top:8%;
+    margin-left:42%
+}
+
+.modal-content{
+    width:226px;
+}
+
+.modal-body{
+    height:362px;
+}
+
+#deletarTitulo{
+   margin-left:32%;
+}
+
+#editarTitulo{
+    margin-left:8%;
+}
+
+#fecharTexto{
+    margin-right:32%;
+}
+
+#idDeletarouDesativar{
+   border-radius:5px;
+
+}
+
+
+
+
+/*
+Começo do css com modificações para a versão de dispositivos com no máximo 600px de largura
+*/
+@media only screen and (max-width:600px) {
+    .form-control{
+        font-family:verdana;
+        font-size:9.8px;
+
+    }
+    #cadastro{
+        display:none;
+    }
+
+    #cadastrarBotao{
+        color:black;
+        border-radius:50%;
+        width:42px;
+        height:42px;
+        margin-left:22%;
+    }
+
+    #cadastroTelaPequena{
+        display:block;
+        width:98%;
+        height:142px;
+        margin-top:12%;
+        margin-left:1%;
+        background-color:#F2BE68;
+        border-radius:5px;
+        box-shadow:  0px 4px 4px #0E0E0E;
+    }
+
+    .tdCadastro{
+        background-color:#F2BE68;
+    }
+
+
+    #botaoCadastrar{
+        color:white;
+    }
+
+
+    .form-group{
+        margin-bottom:1%;
+    }
+
+    #editar{
+        margin-top:8%;
+        background-color:#33334C;
+        width:98%;
+        margin-left:1%;
+        box-shadow:  0px 4px 4px #0E0E0E;
+        margin-bottom:12%;
+        border-radius:5px;
+    }
+
+    #desativos{
+        margin-top:8%;
+        background-color:#33334C;
+        width:98%;
+        margin-left:1%;
+        box-shadow:  0px 4px 4px #0E0E0E;
+        margin-bottom:12%;
+        border-radius:5px;
+    }
+
+
+    span .glyphicon-pencil{
+        margin-right:322px;
+    }
+
+    }
+
+/*
+Fim do css com modificações para a versão de dispositivos com no máximo 600px de largura
+*/
